@@ -1,0 +1,52 @@
+nav {
+  background-color: rgb(51, 51, 82);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+}
+a {
+  color: white;
+}
+h3 {
+  text-decoration: none;
+  margin-left: 5px;
+  color: rgb(233, 132, 74);
+  font-family: Helvetica;
+}
+h3:hover {
+  border-bottom: 3px solid white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin: 0 0 0 auto;
+  padding: 0;
+}
+
+li {
+  margin: auto;
+  display: inline-block;
+  height: max-content;
+}
+
+li a {
+  margin: 0 5px;
+  height: 100%;
+  border: 0;
+}
+
+li a:hover {
+  background-color: rgb(233, 132, 74);
+  height: 15rem;
+  border-bottom: 3px solid white;
+  border-radius: 15%;
+}
+
+a:active {
+  background-color: white;
+}
